@@ -1,0 +1,22 @@
+/* typography */
+body {font-size: 75%;}
+html > body {font-size: 12px;}
+
+p {margin-bottom:18px;}
+
+a:link, a:hover, a:visited, a:active {text-decoration:none; color:#ef4300; font-weight:bold;}
+a:hover {color:#ef4300; border-bottom:1px solid #ef4300;}
+
+h1 {font-size: 24px; line-height: 36px; margin:18px 0;}
+
+ul, ol {margin-bottom: 18px;}
+
+/* fluid.gs site design */
+
+div.section div.column {border-left:1px solid #a1b04a; border-bottom:1px solid #a1b04a; background:#f8f9f4;}
+div.section div.column:last-child {border-right:1px solid #a1b04a;}
+div.section div.column_content {padding:5px; margin:5px;}
+
+
+
+

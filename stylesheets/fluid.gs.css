@@ -1,0 +1,14 @@
+body {min-width:860px; width:100%; font-family:helvetica; line-height:1.3em;}
+
+/* .fluid_grid_layout is the main wrapper for grid system, comment out for 100% width of bod */ 
+.fluid_grid_layout {width:80%; margin:0 10%; position:relative;}
+
+div.section {display:table; width:100%; border-collapse:collapse;}
+div.column {display: table-cell;}
+
+div.one {width:15%;}
+div.two {width:30%;}
+div.three {width:45%;}
+div.four {width:60%;}
+div.five {width:75%;}
+div.six {width:90%;}
