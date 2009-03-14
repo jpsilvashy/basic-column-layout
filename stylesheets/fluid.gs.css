@@ -1,6 +1,6 @@
 body {min-width:860px; width:100%; font-family:helvetica; line-height:1.3em;}
 
-/* .fluid_grid_layout is the main wrapper for grid system, comment out for 100% width of bod */ 
+/* .fluid_grid_layout is the main wrapper for grid system, comment out for 100% width of body */ 
 .fluid_grid_layout {width:80%; margin:0 10%; position:relative;}
 
 div.section {display:table; width:100%; border-collapse:collapse;}
