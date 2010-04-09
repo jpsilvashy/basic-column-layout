@@ -32,8 +32,8 @@ Many of the ideas that have inspired me to build the Fluid Grid System is from s
 
 ## Attributions
 Modifications and fixes made from:
-* [Eric Meyer's original "Reset CSS"](http://meyerweb.com/eric/tools/css/reset/ "Eric Meyer's original 'Reset CSS'")
-* [Blue Print CSS](http://code.google.com/p/blueprintcss/ "Blue Print CSS")
+*   [Eric Meyer's original "Reset CSS"](http://meyerweb.com/eric/tools/css/reset/ "Eric Meyer's original 'Reset CSS'")
+*   [Blue Print CSS](http://code.google.com/p/blueprintcss/ "Blue Print CSS")
 
 ## License
 Copyright (c) 2010 Joseph Silvashy and New Gold Leaf LP
