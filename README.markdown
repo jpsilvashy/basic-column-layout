@@ -1,5 +1,7 @@
 # Fluid Grid System
 
+A web grid system designed by [Joseph Silvashy](http://newgoldleaf.com/hello#joseph_silvashy "Joseph Silvashy") and [New Gold Leaf](http://newgoldleaf.com/ "New Gold Leaf") that allows designers to use the screen real estate on large monitors and retain great design on smaller ones. The Fluid Grid System combines the principals of the typographic grid and a baseline grid into one resolution-independent framework.
+
 ## How to use the Fluid Grid System
 To the following code is an example of how the code works. Because The Fluid Grid System is based on a six column grid the only necessary provision is that all of the <div class="three column"> within it’s parent <div class="section"> element add up to 6. A total of 720 different combinations can be achieved in this fashion.
 
