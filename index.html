@@ -1,1 +1,245 @@
-My GitHub Page
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script src="javascripts/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascripts/fluid.gs.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- fluid grid system framework files -->
+  <link rel="stylesheet" href="stylesheets/fluid.gs.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <!--[if lt IE 8]><link rel="stylesheet" href="stylesheets/fluid.gs.lt_ie8.css" type="text/css" media="screen" title="no title" charset="utf-8"><![endif]-->
+
+  <!-- site specific files -->
+  <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <!--[if lt IE 8]><link rel="stylesheet" href="stylesheets/main.lt_ie8.css" type="text/css" media="screen" title="no title" charset="utf-8"><![endif]-->
+
+  <title>Fluid Grid System</title>
+
+</head>
+
+<body>
+<div id="header" class="fluid_grid_layout">
+  <div class="six_column section">
+    
+    <div class="four column">
+      <div class="column_content">
+        <h1>Fluid Grid System</h1>
+      </div>
+    </div>
+    
+    <div class="one column">
+      <div class="column_content">
+        <a class="action" id="show_grid" href="#">show grid</a>
+      </div>
+    </div>
+    
+    <div class="one column">
+      <div class="column_content">
+        <a class="action" id="download" href="fluid-grid-system.zip">download</a>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<div id="main" class="fluid_grid_layout">
+  
+  <div class="six_column section">
+    <div class="two column">
+      <div class="column_content">
+        <h2>The Fluid Grid system</h2>
+        <p>A web grid system designed by <a href="http://newgoldleaf.com/hello">Joseph Silvashy</a> and <a href="http://newgoldleaf.com/">New Gold Leaf</a> that allows designers to use the screen real estate on large monitors and retain great design on smaller ones. The Fluid Grid System combines the principals of the typographic grid and a baseline grid into one resolution-independent framework.</p>      
+        <p>Web developers have only recently started to show a real interest in grid systems. Why it has taken so many years for web developers to become interested in something that has been essential to the written medium in general since the 30s, is hard to say.</p>
+      </div>
+    </div> 
+
+    <div class="four column">
+      <div class="column_content">
+        <h2>Why this grid system?</h2>
+        <p>The Fluid Grid System is great for rapid prototyping as well as final production layouts because designers can quickly design layouts and make changes to complex pages which have the ability to maintain well-planned horizontal and vertical rhythm.  <a href="fluid-grid-system.zip">Download</a> (28 KB) the latest version of the Fluid Grid System, the .zip contains all the <abbr title="extensible hypertext markup language">XHTML</abbr>/<abbr title="cascading stylesheets">CSS</abbr> files you need to get started designing.</p>
+
+        <h2>Open Source and Free</h2>
+        <p>In the spirit of giving back and contributing to the design industry the Fluid Grid System is open source and is released under the <a href="http://www.gnu.org/licenses/gpl.html" title="The GNU General Public License - GNU Project - Free Software Foundation (FSF)">GPL</a> and <a href="http://www.opensource.org/licenses/mit-license.php" title="Open Source Initiative OSI - The MIT License:Licensing | Open Source Initiative">MIT</a> licenses. We encourage users to adapt and improve the system, so go branch the latest from the master at <a href="http://github.com/jpsilvashy/fluid-grid-system/tree/master">Github  &rarr;</a></p>
+        
+      </div>
+    </div>
+    
+  </div>
+ 
+  <div class="six_column section">
+    <div class="three column">
+      <div class="column_content">
+        <h2>The Code</h2>
+        <p>The code for the Fluid Grid System is simple, lightweight, and non-obtrusive. The following is a sample of an empty three column layout with columns of varying width.</p> 
+
+        <code>
+          <pre>
+&lt;div <span class="attribute">class</span>=&quot;<span class="important"><strong>six_column section</strong></span>&quot;&gt;
+  &lt;div <span class="attribute">class</span>=&quot;<span class="important"><strong>two</strong> column</span>&quot;&gt;
+    &lt;div <span class="attribute">class</span>=&quot;column_content&quot;&gt;
+      <abbr title="place content here">...</abbr>
+    &lt;/div&gt;
+  &lt;/div&gt;                        
+  &lt;div <span class="attribute">class</span>=&quot;<span class="important"><strong>three</strong> column</span>&quot;&gt;      
+    &lt;div <span class="attribute">class</span>=&quot;column_content&quot;&gt;
+      <abbr title="place content here">...</abbr>
+    &lt;/div&gt;
+  &lt;/div&gt;                        
+  &lt;div <span class="attribute">class</span>=&quot;<span class="important"><strong>one</strong> column</span>&quot;&gt;      
+    &lt;div <span class="attribute">class</span>=&quot;column_content&quot;&gt;
+      <abbr title="place content here">...</abbr>
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;          
+          </pre>
+        </code>
+
+      </div>
+    </div> 
+
+    <div class="three column">
+      <div class="column_content">
+        <h2>How to use the Fluid Grid System</h2>
+        <p>To the left is an example of how the code works. Because The Fluid Grid System is based on a six column grid the only necessary provision is that all of the <code>&lt;div class=&quot;three column&quot;&gt;</code> within it&rsquo;s parent <code>&lt;div class=&quot;section&quot;&gt;</code> element add up to 6. A total of 720 different combinations can be achieved in this fashion.</p>
+                
+        <h2>Credit and Inspiration</h2>
+        <p>Many of the ideas that have inspired me to build the Fluid Grid System is from some long-time geniuses of the web world including <a href="http://sonspring.com/journal/960-grid-system" title="SonSpring | 960 Grid System">Nathan Smith</a> for the original web grid system the <a href="http://960.gs/" title="960 Grid System">960 grid system</a>, also <a href="http://www.stuffandnonsense.co.uk/" title="Stuff and Nonsense | Creative web site design specialists based in North Wales, UK">Andy Clarke</a>, <a href="http://hicksdesign.co.uk/" title="hicksdesign: design for print and new-fangled media">Jon Hicks</a>, <a href="http://www.shauninman.com/" title="ShaunInman.com">Shaun Inman</a>, <a href="http://www.cameronmoll.com/" title="Authentic Boredom ~ Delivered weekly by Cameron Moll">Cameron Moll</a>, <a href="http://jasonsantamaria.com/" title="Jason Santa Maria">Jason Santa Maria</a>, <a href="http://www.loudthinking.com/" title="Loud Thinking by David Heinemeier Hansson">David Heinemeier Hansson</a>, <a href="http://en.wikipedia.org/wiki/Sam_Ruby" title="Sam Ruby - Wikipedia, the free encyclopedia">Sam Ruby</a>, <a href="http://ejohn.org/" title="John Resig - JavaScript, Programming, and Web Applications">John Resig</a>, <a href="http://www.markboulton.co.uk/" title="Mark Boulton: Homepage">Mark Bolton</a>, <a href="http://subtraction.com/" title="Subtraction 7.1">Khoi Vinh</a>, <a href="http://www.maedastudio.com/index.php" title="MAEDASTUDIO">John Maeda</a>, and <a href="http://thebignoob.com/soldiers/ryan/" title="The Big Noob - Soldiers">Ryan Sims</a> to name only a few.</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="six_column section">
+    <div class="two column">
+      <div class="column_content">
+        <h2>Flexible</h2>
+        <p>Off the shelf the Fluid Grid System looks great, it leaves a simple page that makes no assumptions of your design besides that if should maintain a grid based layout. By default all the elements land on the baseline also.</p>
+        
+      </div>
+    </div> 
+
+    <div class="two column">
+      <div class="column_content">
+        <h2>Accessible</h2>
+        <p>Because of the simple layout and simple use of <abbr title="cascading stylesheets">CSS</abbr>, the Fluid Grid System degrades well in both older web browsers, scales with text nicely, and presents contented to screen readers in a logical manner as well.</p>
+        
+      </div>
+    </div>
+    
+    <div class="two column">
+      <div class="column_content">
+        <h2>Upcoming</h2>
+        <p>In the near future you will see layouts for both <a href="http://wordpress.org/" title="WordPress &#8250; Blog Tool and Publishing Platform">Wordpress</a> and <a href="http://www.movabletype.org/" title="MovableType.org - Home of the MT Community">Moveable Type</a> blog platforms as well as integration with <a href="http://jquery.com/" title="jQuery: The Write Less, Do More, JavaScript Library">JQuery</a> and <a href="http://jqueryui.com/" title="jQuery UI - Home">JQuery UI</a> for use in rich internet applications (RIA's) and more.</p>
+        
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+
+
+
+<div id="footer" class="fluid_grid_layout">
+  
+  <div class="six_column section">
+    
+    <div class="two column">
+      <div class="column_content">
+        <h2>some useful resources</h2>
+        <ul class="friends">
+          <li><a href="http://www.alistapart.com/articles/fluidgrids" title="A List Apart: Articles: Fluid Grids"><span>A List Apart</span>Fluid Grids</a></li>
+          <li><a href="http://jasonsantamaria.com/articles/simple/" title="Simple. | Jason Santa Maria"><span>Jason Santa Maria</span>Simple</a></li>
+          <li><a href="http://www.subtraction.com/2009/02/19/worlds-five-best-designed-newspapers" title="Subtraction 7.1: Society of News Designers&#58; The World&#8217;s Five Best Designed Newspapers"><span>Subtraction</span>Best Designed Newspapers</a></li>
+          <li><a href="http://www.smashingmagazine.com/2009/02/10/10-harsh-truths-about-corporate-websites/" title="10 Harsh Truths About Corporate Websites | How-To | Smashing Magazine"><span>Smashing Magazine</span>Corporate Websites Suck</a></li>
+          <li><a href="http://www.ted.com/index.php/talks/john_maeda_on_the_simple_life.html" title="John Maeda on the simple life | Video on TED.com"><span>John Maeda</span>Simplicity Patterns</a></li>
+          <li><a href="http://ajaxian.com/archives/visits-not-page-views" title="Ajaxian &raquo; Visits, not page views"><span>Ajaxian</span>Visits, not page views</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="two column">
+      <div class="column_content">
+        <h2>our friends</h2>
+        <ul>
+          <li><a href="http://www.newgoldleaf.com/" title="New Gold Leaf Web Development and Design">New Gold Leaf</a></li>
+          <li><a href="http://www.tractionco.com/" title="Traction - A San Francisco Advertising & Marketing Agency">Traction</a></li>
+          <li><a href="http://demsuite.com/" title="dem suite">Dem Suite</a></li>
+          <li><a href="http://justwatchthesky.com/" title="Justwatchthesky">Ryan Sims</a></li>
+          <li><a href="http://www.spinnerty.com/" title="">Spinnerty</a></li>
+        </ul>
+        
+      </div>
+    </div>
+    
+    <div class="two column">
+      <div class="column_content">
+        <h2 class="logo">Fluid Grid System</h2>
+        
+        
+        <h3>The Fluid Grid System is designed by <a href="http://newgoldleaf.com/hello">Joseph Silvashy</a> and <a href="http://newgoldleaf.com/">New Gold Leaf</a>. Licensed under <a href="http://www.gnu.org/licenses/gpl.html" title="The GNU General Public License - GNU Project - Free Software Foundation (FSF)">GPL</a> and <a href="http://www.opensource.org/licenses/mit-license.php" title="Open Source Initiative OSI - The MIT License:Licensing | Open Source Initiative">MIT</a> licenses.</h3>
+        <h3>The <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dc:title" rel="dc:type">Fluid Grid System</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://fluid.gs" property="cc:attributionName" rel="cc:attributionURL">fluid.gs</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</h3>
+      
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" /></a>
+        
+                
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="six_column section">
+    <div class="six column">
+      <div class="column_content">
+      
+      </div>
+    </div>                        
+  </div> 
+  
+
+</div>
+
+<div id="features">
+  <div id="grid" class="fluid_grid_layout">
+    <div class="six_column section">
+      <div class="one column">
+        <div class="column_content"></div>
+      </div>                        
+      <div class="one column">      
+        <div class="column_content"></div>
+      </div>                        
+      <div class="one column">      
+        <div class="column_content"></div>
+      </div>                        
+      <div class="one column">      
+        <div class="column_content"></div>
+      </div>                        
+      <div class="one column">      
+        <div class="column_content"></div>
+      </div>                        
+      <div class="one column">      
+        <div class="column_content"></div>
+      </div> 
+
+    </div> 
+  </div>
+  <div id="lines"></div>  
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7434953-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

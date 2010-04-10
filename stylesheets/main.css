@@ -1,0 +1,66 @@
+/* typography */
+body {font-size: 75%; height:100%; position:relative;}
+html > body {font-size: 12px;}
+
+p {margin-bottom:18px;}
+
+a:link, a:hover, a:visited, a:active {text-decoration:none; color:#ef4300; font-weight:bold;}
+a:hover {color:#ef4300; border-bottom:1px solid #ef4300;}
+
+abbr {border-bottom:1px dotted black; cursor: help;}
+
+h1 {font-size: 24px; line-height: 36px; margin-bottom: 18px;}
+h2 {font-size: 18px; line-height: 18px; margin-bottom: 18px; font-weight:bold;}
+h3 {font-size: 12px; line-height: 18px;}
+
+ul, ol {margin-bottom: 18px;}
+
+div#features {position:absolute; top:0; left:0; width:100%; height:100%; display:none; z-index:10; min-width:860px;}
+div#lines {position:absolute; top:0; left:0; width:100%; height:100%; background:url('../images/18px_lineheight.gif');}
+div#grid {position:absolute; top:0; left:0; width:80%; height:100%;}
+div#grid div.section {position:absolute; top:0; left:0; height:100%;}
+div#grid div.section div.column {background:none; height:100%; border:none;}
+div#grid div.section div.column div.column_content {background:red; height:100%; opacity:.25;}
+
+/* fluid.gs site design */
+/*div.column {background:url('../images/box_bottom.gif') #f7f7f7 bottom repeat-x;}*/
+div#main div.section {background:url('../images/box_bottom.gif') #f7f7f7 bottom repeat-x;}
+
+div.section div.column {border-left:1px solid #ccc;}
+div.section div.column:last-child {border-right:1px solid #ccc;}
+div.section div.column_content {padding:18px 5px 0px 5px; margin:0 5px; line-height:1.5em; text-shadow:1px 1px 1px white;}
+
+div#header {background:#191919; margin:0; height:66px; width:100%; border-bottom:6px solid #0C0C0C; z-index:2000;}
+div#header div.section {margin:0 10%; width:80%;}
+div#header div.section div.column {background:none; border:none;}
+div#header div.section div.column_content {margin:0; padding:0;}
+div#header div.section div.column_content h1 {background:url('../images/fluidgrid.gif') no-repeat; margin:18px 10px; height:35px; width:123px; text-indent:-9999px;}
+
+div#header div.section div.column_content a {z-index:1000; }
+
+div#footer {background:#191919; margin:0; width:100%; border-bottom:6px solid #0C0C0C; z-index:2000;}
+div#footer div.section {margin:0 10%; width:80%;}
+div#footer div.section div.column {background:none; border:none;}
+div#footer div.section div.column_content {margin:0; padding:0 10px;}
+div#footer div.section div.column_content ul li {color:#b8b8b8; text-shadow:1px 1px 0 black; border-bottom:1px solid #575757; line-height:26px; background:url('../images/icon_generic.png') no-repeat center left; padding-left:22px;}
+div#footer div.section div.column_content ul li span {color:#575757; margin-right:10px; font-weight:normal; display:block; float:left;}
+div#footer div.section div.column_content ul.friends li {background:url('../images/icon_folder.png') no-repeat center left; padding-left:22px;}
+/*div#footer div.section div.column_content ul li {color:white; text-shadow:1px 1px 0 black; opacity:.6; border-bottom:1px solid white; line-height:26px;}*/
+/*div#footer div.section div.column_content {margin:0; padding:0 10px;}*/
+div#footer div.section div.column_content h2 {font-weight:bold; border-bottom:1px solid #575757; margin-bottom:0; padding-bottom:9px; color:white; text-shadow:1px 1px 1px black; opacity:.7; text-transform:uppercase; font-variant:small-caps; font-size:100%;}
+div#footer div.section div.column_content h2.logo {background:url('../images/fluidgrid_small.gif') no-repeat right; margin:24px 0 20px 0; padding:0; height:30px; border:none; text-indent:-9999px;}
+div#footer div.section div.column_content h3 {margin:10px 0; color:white; text-shadow:1px 1px 1px black; font-size:80%;}
+div#footer div.section div.column_content a:link, div#footer div.section div.column_content a:hover, div#footer div.section div.column_content a:visited, div#footer div.section div.column_content a:active {color:white; opacity:.7;}
+div#footer div.section div.column_content a:hover {border-bottom:1px solid white; color:white;}
+
+a.action:link, a.action:visited, a.action:active {background:black; border:none; cursor:pointer; -moz-border-radius: 5px; -webkit-border-radius: 5px; float:left; color:white; font-weight:bold; padding:5px 14px; line-height:15px; height:14px; text-transform:uppercase; font-variant:small-caps; font-size:10px; text-shadow:0px 0px 0px black; opacity:.6;}
+a.action:hover {background:#ef4300; text-shadow:1px 1px 0px #661d00; opacity:.9; border:none; }
+
+pre {background:#191919; margin:0 0 18px 0; color:white; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding:18px; text-shadow:1px 1px 1px black;}
+code abbr {background:#0f0f0f; padding:1px 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:none;}
+
+span.attribute {font-style:italic;}
+span.important {color:orange;}
+
+
+

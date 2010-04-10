@@ -1,0 +1,4 @@
+div.section div.column {border-left:none;}
+div.section div.column:last-child {border-right:none;}
+
+div#main {border-left:1px solid #ccc; border-right:1px solid #ccc;}
