@@ -5,7 +5,6 @@ A web grid system designed by [Joseph Silvashy](http://newgoldleaf.com/hello#jos
 ## How to use the Fluid Grid System
 To the following code is an example of how the code works. Because The Fluid Grid System is based on a six column grid the only necessary provision is that all of the `<div class="three column">` within it’s parent `<div class="section">` element add up to 6. A total of 720 different combinations can be achieved in this fashion.
 
-    <code>
     <div class="six_column section">
       <div class="two column">
         <div class="column_content">
@@ -23,7 +22,6 @@ To the following code is an example of how the code works. Because The Fluid Gri
         </div>
       </div>
     </div>
-    </code>
 
 The code for the Fluid Grid System is simple, lightweight, and non-obtrusive. The following is a sample of an empty three column layout with columns of varying width.
 
