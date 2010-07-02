@@ -51,6 +51,7 @@ div.six_column.section div.four {width:60%;}
 div.six_column.section div.five {width:75%;}
 div.six_column.section div.six {width:90%;}
 
+/* nine columns */
 div.nine_column.section div.one {width:10%;}
 div.nine_column.section div.two {width:20%;}
 div.nine_column.section div.three {width:30%;}
@@ -60,3 +61,16 @@ div.nine_column.section div.six {width:60%;}
 div.nine_column.section div.seven {width:70%;}
 div.nine_column.section div.eight {width:80%;}
 div.nine_column.section div.nine {width:90%;}
+
+/* twelve columns */
+div.twelve_column.section div.one {width:8%;}
+div.twelve_column.section div.two {width:16%;}
+div.twelve_column.section div.three {width:24%;}
+div.twelve_column.section div.four {width:32%;}
+div.twelve_column.section div.six {width:48%;}
+div.twelve_column.section div.eight {width:64%;}
+div.twelve_column.section div.twelve {width:96%;}
+
+
+
+
